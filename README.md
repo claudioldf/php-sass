@@ -21,7 +21,7 @@ use Composer, it's super-easy and a common minimum-standard in PHP development t
 
 ```json
 "require": {
-    "panique/php-sass": "1.0"
+    "claudioldf/php-sass": "2.0"
 }
 ```
 
