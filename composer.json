@@ -1,20 +1,20 @@
 {
-    "name": "panique/php-sass",
+    "name": "claudioldf/php-sass",
     "type": "library",
-    "description": "Compiles your SASS .scss files to .css every time your run your app (in development)",
+    "description": "Compiles your SASS .scss files to .css every time your run your app (in development) - forked from panique/php-sass",
     "keywords": ["sass", "scss", "css"],
-    "homepage": "https://github.com/panique/php-sass",
+    "homepage": "https://github.com/claudioldf/php-sass",
     "license": "MIT",
     "authors": [
         {
-            "name": "Panique",
-            "homepage": "http://careers.stackoverflow.com/panique",
+            "name": "Claudio",
+            "homepage": "",
             "role": "Developer"
         }
     ],
     "support": {
-        "issues": "https://github.com/panique/php-sass/issues",
-        "source": "https://github.com/panique/php-sass"
+        "issues": "https://github.com/claudioldf/php-sass/issues",
+        "source": "https://github.com/claudioldf/php-sass"
     },
     "autoload": {
         "files": ["sass-compiler.php"]
