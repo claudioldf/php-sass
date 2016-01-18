@@ -5,6 +5,28 @@ The mainly change that I did:
 - The script search in recursive folders also
 - When the second parameter is folder targe, the script will keep a mirror of the original source folder (.scss) but in .css format.
 
+Example how to use:
+function load_sass($assets, $target_file) {
+	if (getenv('ENV') != 'production') {
+		foreach($assets as $index => $file) {
+			$file_append = ($index==0) ? false : true;
+			SassCompiler::run($file, $target_file, "scss_formatter_compressed", $file_append);
+		}
+		return $target_file;
+	} else {
+		return $target_file;
+	}
+ }
+ 
+ load_sass(
+ 	[
+		"assets/scss/styles1.scss",
+		"assets/scss/styles2.scss",
+		...
+	],
+	"assets/css/style-join-all.css"
+ );
+
 # php-sass
 
 Automatic SASS-to-CSS compiling (while being in development, you'll for sure not do this in production).
