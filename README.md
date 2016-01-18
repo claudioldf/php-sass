@@ -6,6 +6,7 @@ The mainly change that I did:
 - When the second parameter is folder targe, the script will keep a mirror of the original source folder (.scss) but in .css format.
 
 Example how to use:
+```php
 function load_sass($assets, $target_file) {
 	if (getenv('ENV') != 'production') {
 		foreach($assets as $index => $file) {
@@ -26,6 +27,8 @@ function load_sass($assets, $target_file) {
 	],
 	"assets/css/style-join-all.css"
  );
+```
+
 
 # php-sass
 
