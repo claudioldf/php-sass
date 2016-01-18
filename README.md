@@ -1,3 +1,10 @@
+***** THIS PROJECT IS A FORK FROM panique/php-sass ******
+
+The mainly change that I did:
+- You can now pass a file on the second parameter, this way, the script will join all in one file.
+- The script search in recursive folders also
+- When the second parameter is folder targe, the script will keep a mirror of the original source folder (.scss) but in .css format.
+
 # php-sass
 
 Automatic SASS-to-CSS compiling (while being in development, you'll for sure not do this in production).
@@ -93,14 +100,6 @@ Read the official docs for more.
 
 This tool uses the excellent [scssphp SASS compiler](http://leafo.net/scssphp/).
 scssphp supports the latest SCSS syntax (3.2.12).
-
-## Other projects
-
-- https://github.com/panique/huge
-- https://github.com/panique/mini2
-- https://github.com/panique/mini
-- https://github.com/panique/php-long-polling
-- My blog DEV METAL: http://www.dev-metal.com
 
 ## License
 
