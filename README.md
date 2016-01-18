@@ -19,11 +19,8 @@ In your project's composer.json, add these dependencies. If you are not using Co
 be very very very ashamed of yourself. And then, after standing there for 2-3 hours, watch some tutorials on how to
 use Composer, it's super-easy and a common minimum-standard in PHP development these days.
 
-Please note that this is a **require-dev**, not a normal **require**. This divides real dependencies from ones you only
-need for local development.
-
 ```json
-"require-dev": {
+"require": {
     "panique/php-sass": "1.0"
 }
 ```
